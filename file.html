@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="Kor">
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+    body{
+background-color: gray;
+    }
+    fieldset{
+border-color:  #1be471;
+    }
+    legned{
+    text-emphasis-color: #1be471;
+    }
+
+</style> 
+<fieldset>
+     <legend>File Upload</legend>
+     <table>
+     <form action="UploadService">
+          <tr>
+              <td>Title :
+              <input type="text" name="title"/></td>
+          </tr>   
+        <td><input type="file" value="Select File" name="file"/></td>
+          </tr>
+          <tr>
+              <td colspan="5"><input type="submit" value="Send File"/></td>
+          </tr>
+          </form>
+     </table>
+    </fieldset>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</html>
